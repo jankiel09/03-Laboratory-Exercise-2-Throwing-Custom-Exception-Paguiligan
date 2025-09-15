@@ -38,6 +38,7 @@ namespace _03LabExer2
             {
                 cbCategory.Items.Add(category);
             }
+
         }
     }
     }
