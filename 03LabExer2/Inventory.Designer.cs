@@ -55,7 +55,7 @@
             // 
             // btnAddProduct
             // 
-            btnAddProduct.Location = new Point(301, 409);
+            btnAddProduct.Location = new Point(470, 288);
             btnAddProduct.Name = "btnAddProduct";
             btnAddProduct.Size = new Size(102, 23);
             btnAddProduct.TabIndex = 0;
@@ -66,131 +66,158 @@
             // gridViewProductList
             // 
             gridViewProductList.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            gridViewProductList.Location = new Point(12, 358);
+            gridViewProductList.Location = new Point(12, 317);
             gridViewProductList.Name = "gridViewProductList";
-            gridViewProductList.Size = new Size(240, 150);
+            gridViewProductList.Size = new Size(560, 191);
             gridViewProductList.TabIndex = 1;
             // 
             // richTxtDescription
             // 
-            richTxtDescription.Location = new Point(137, 218);
+            richTxtDescription.Location = new Point(327, 111);
             richTxtDescription.Name = "richTxtDescription";
-            richTxtDescription.Size = new Size(100, 96);
+            richTxtDescription.Size = new Size(245, 168);
             richTxtDescription.TabIndex = 2;
             richTxtDescription.Text = "";
             // 
             // dtPickerMfgDate
             // 
-            dtPickerMfgDate.Location = new Point(257, 164);
+            dtPickerMfgDate.Location = new Point(98, 153);
             dtPickerMfgDate.Name = "dtPickerMfgDate";
-            dtPickerMfgDate.Size = new Size(200, 23);
+            dtPickerMfgDate.Size = new Size(205, 23);
             dtPickerMfgDate.TabIndex = 3;
             // 
             // dtPickerExpDate
             // 
-            dtPickerExpDate.Location = new Point(288, 105);
+            dtPickerExpDate.Location = new Point(98, 187);
             dtPickerExpDate.Name = "dtPickerExpDate";
-            dtPickerExpDate.Size = new Size(200, 23);
+            dtPickerExpDate.Size = new Size(205, 23);
             dtPickerExpDate.TabIndex = 4;
             // 
             // cbCategory
             // 
             cbCategory.FormattingEnabled = true;
-            cbCategory.Location = new Point(294, 250);
+            cbCategory.Location = new Point(98, 119);
             cbCategory.Name = "cbCategory";
-            cbCategory.Size = new Size(121, 23);
+            cbCategory.Size = new Size(205, 23);
             cbCategory.TabIndex = 5;
             // 
             // txtSellPrice
             // 
-            txtSellPrice.Location = new Point(281, 304);
+            txtSellPrice.Location = new Point(98, 256);
             txtSellPrice.Name = "txtSellPrice";
-            txtSellPrice.Size = new Size(100, 23);
+            txtSellPrice.Size = new Size(205, 23);
             txtSellPrice.TabIndex = 6;
             // 
             // txtQuantity
             // 
-            txtQuantity.Location = new Point(271, 347);
+            txtQuantity.Location = new Point(98, 222);
             txtQuantity.Name = "txtQuantity";
-            txtQuantity.Size = new Size(100, 23);
+            txtQuantity.Size = new Size(205, 23);
             txtQuantity.TabIndex = 7;
             // 
             // txtProductName
             // 
-            txtProductName.Location = new Point(271, 458);
+            txtProductName.Location = new Point(99, 84);
             txtProductName.Name = "txtProductName";
-            txtProductName.Size = new Size(100, 23);
+            txtProductName.Size = new Size(204, 23);
             txtProductName.TabIndex = 8;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(23, 77);
+            label1.BackColor = Color.Transparent;
+            label1.FlatStyle = FlatStyle.Flat;
+            label1.Font = new Font("Segoe UI Semibold", 20.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(6, 33);
             label1.Name = "label1";
-            label1.Size = new Size(74, 15);
+            label1.Size = new Size(171, 37);
             label1.TabIndex = 9;
             label1.Text = "Add Product";
+            label1.TextAlign = ContentAlignment.TopCenter;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(18, 118);
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(15, 86);
             label2.Name = "label2";
-            label2.Size = new Size(49, 15);
+            label2.Size = new Size(56, 17);
             label2.TabIndex = 10;
             label2.Text = "Product";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(20, 152);
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(15, 122);
             label3.Name = "label3";
-            label3.Size = new Size(55, 15);
+            label3.Size = new Size(64, 17);
             label3.TabIndex = 11;
             label3.Text = "Category";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(15, 187);
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label4.ForeColor = Color.White;
+            label4.Location = new Point(15, 157);
             label4.Name = "label4";
-            label4.Size = new Size(59, 15);
+            label4.Size = new Size(67, 17);
             label4.TabIndex = 12;
             label4.Text = "Mfg. Date";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(24, 211);
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label5.ForeColor = Color.White;
+            label5.Location = new Point(15, 190);
             label5.Name = "label5";
-            label5.Size = new Size(55, 15);
+            label5.Size = new Size(65, 17);
             label5.TabIndex = 13;
             label5.Text = "Exp. Date";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(20, 251);
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.White;
+            label6.Location = new Point(15, 225);
             label6.Name = "label6";
-            label6.Size = new Size(29, 15);
+            label6.Size = new Size(32, 17);
             label6.TabIndex = 14;
             label6.Text = "Qty.";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(19, 290);
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label7.ForeColor = Color.White;
+            label7.Location = new Point(15, 260);
             label7.Name = "label7";
-            label7.Size = new Size(54, 15);
+            label7.Size = new Size(61, 17);
             label7.TabIndex = 15;
             label7.Text = "Sell Price";
+            label7.Click += label7_Click;
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(163, 116);
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label8.ForeColor = Color.White;
+            label8.Location = new Point(327, 84);
             label8.Name = "label8";
-            label8.Size = new Size(67, 15);
+            label8.Size = new Size(76, 17);
             label8.TabIndex = 16;
             label8.Text = "Description";
             // 

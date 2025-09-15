@@ -99,5 +99,6 @@ namespace _03LabExer2
                 this._SellingPrice = value;
             }
         }
+        
     }
 }
