@@ -57,10 +57,11 @@
             // 
             btnAddProduct.Location = new Point(301, 409);
             btnAddProduct.Name = "btnAddProduct";
-            btnAddProduct.Size = new Size(75, 23);
+            btnAddProduct.Size = new Size(102, 23);
             btnAddProduct.TabIndex = 0;
-            btnAddProduct.Text = "button1";
+            btnAddProduct.Text = "Add Product";
             btnAddProduct.UseVisualStyleBackColor = true;
+            btnAddProduct.Click += btnAddProduct_Click;
             // 
             // gridViewProductList
             // 
